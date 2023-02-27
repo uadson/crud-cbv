@@ -1,12 +1,12 @@
 # crud-cbv
 Creating a CRUD with Class Based Views on Django Framework
 
-#### A simple CRUD application using django's based view classes
+##### A simple CRUD application using django's based view classes
 
-##### Stacks
+#### Stacks
 python
 
-###### Libs
+#### Libs
 django
 django-bootstrap4
 

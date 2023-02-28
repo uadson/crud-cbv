@@ -4,11 +4,15 @@
 
 {% block content %}
 <h4>Products</h4>
-{% buttons %}
-  <button class="btn">
-    <a class="btn btn-primary" href="{% url 'core:add' %}">Add a Product</a>
-  </button>
-{% endbuttons %}
+<div class="modal fade" tabindex="-1" role="dialog" id="modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+<!-- Create book button -->
+<button id="addModal" class="btn btn-primary" type="button" name="button">Add Product</button>
+
 <table class="table table-striped">
     <thead>
       <tr>
